@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.largo{
+    background-color: #00A3D4;
+    width: 100%;
+    height: 100px;
+}
+
+h1{
+    margin-left: 10px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+h2{
+    margin: 20px;
+}
+
+.capitulos{
+    width: 100%;
+    margin-left: 40px;
+}
+
+.capitulos img{
+    width: auto;
+    height: 40px;
+    padding-top: 25px;
+}
+
+.capitulos ul{
+    list-style: none;
+}
+
+.capitulos ul li a{
+    text-decoration: none;
+    color: black;
+    padding-bottom: 60px;
+    height: 100%;
+    transition: 0.5s;
+    list-style: none;
+}
+
+.capitulos ul li a:hover{
+    font-size: larger;
+    font-weight: bold;
+}
+
+footer{
+    width: 100%;
+    background-color: #00A3D4;
+    color: black;
+    height: 60px;
+    justify-content: center;
+    bottom: 0;
+    position: relative;
+}
+
+footer p{
+    padding-top: 20px;
+    margin: 10px;
+}
