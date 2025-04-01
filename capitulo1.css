@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(252, 252, 252);
+}
+
 h1{
     text-align: center;
     padding-top: 10px;
@@ -13,16 +17,27 @@ h1{
 
 h2{
     margin: 20px;
+    text-align: center;
+}
+
+main{
+    margin: 60px auto;
+    width: auto;
+    max-width: 1000px;
+    width: 80%;
+    display: block;
+
 }
 
 section{
     padding: 20px;
-    background-color: aqua;
+    background-color: #f8e4dd;
+    text-align: justify;
+    border-radius: 7px;
 }
 
-.der{
-    text-align: end;
-    background-color: bisque;
+article{
+    padding-bottom: 20px;
 }
 
 ul li{

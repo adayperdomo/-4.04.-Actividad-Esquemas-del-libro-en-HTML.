@@ -56,7 +56,8 @@ footer{
     height: 60px;
     justify-content: center;
     bottom: 0;
-    position: relative;
+    position: absolute;
+    
 }
 
 footer p{
